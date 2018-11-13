@@ -1,0 +1,12 @@
+ID: HANA_App-1
+_schema-version: '2.0'
+version: 0.0.1
+
+modules:
+ - name: test
+   type: nodejs
+   path: test1/test
+   provides:
+    - name: test_api
+      properties:
+         url: ${default-url}
