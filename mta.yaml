@@ -9,5 +9,4 @@ modules:
    provides:
     - name: test_api
       properties:
-         url: ${default-url}sdfsfkk
-sd
+         url: ${default-url}
